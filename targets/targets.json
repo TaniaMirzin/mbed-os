@@ -1318,7 +1318,7 @@
     "KW24D": {
         "supported_form_factors": ["ARDUINO"],
         "core": "Cortex-M4",
-        "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
+        "supported_toolchains": ["GCC_ARM", "IAR"],
         "extra_labels": ["Freescale", "MCUXpresso_MCUS", "KSDK2_MCUS", "FRDM"],
         "is_disk_virtual": true,
         "macros": ["CPU_MKW24D512VHA5", "FSL_RTOS_MBED"],
@@ -1346,7 +1346,6 @@
             "FLASH",
             "802_15_4_PHY"
         ],
-        "release_versions": ["2", "5"],
         "device_name": "MKW24D512xxx5",
         "bootloader_supported": true,
         "overrides": {
@@ -7982,7 +7981,7 @@
         "core": "Cortex-M4F",
         "public": true,
         "extra_labels": ["RDA", "UNO_91H", "FLASH_CMSIS_ALGO"],
-        "supported_toolchains": ["GCC_ARM", "IAR"],
+        "supported_toolchains": ["ARM", "GCC_ARM", "IAR"],
         "macros": ["TWO_RAM_REGIONS", "CMSIS_NVIC_VIRTUAL", "CMSIS_NVIC_VIRTUAL_HEADER_FILE=\"RDA5981_nvic_virtual.h\""],
         "device_has": [
             "USTICKER",
@@ -7999,7 +7998,7 @@
             "FLASH",
             "TRNG"
         ],
-        "release_versions": []
+        "release_versions": ["2", "5"]
     },
     "UNO_91H": {
         "inherits": ["RDA5981X"],
